@@ -1,0 +1,92 @@
+:root {
+    /* Color Palette */
+    --color-primary-0: #712D91;         /* Main Primary color */
+    --color-primary-1: #A872C1;
+    --color-primary-2: #8647A3;
+    --color-primary-3: #5C187C;
+    --color-primary-4: #460962;
+
+    --color-secondary-1-0: #B23175;	/* Main Secondary color (1) */
+    --color-secondary-1-1: #DD7EB0;
+    --color-secondary-1-2: #C85190;
+    --color-secondary-1-3: #97175B;
+    --color-secondary-1-4: #780642;
+
+    --color-secondary-2-0: #96CA38;	/* Main Secondary color (2) */
+    --color-secondary-2-1: #CDF28A;
+    --color-secondary-2-2: #B3E35D;
+    --color-secondary-2-3: #78AC1B;
+    --color-secondary-2-4: #5A8906;
+
+    --color-complement-0: #D5D93C;	    /* Main Complement color */
+    --color-complement-1: #FBFE91;
+    --color-complement-2: #F0F363;
+    --color-complement-3: #B5B91D;
+    --color-complement-4: #8F9307;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    z-index: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: var(--color-primary-4);
+}
+
+/* nav */
+
+#nav {
+    height: 100px;
+    width: 100vw;
+    background: var(--color-secondary-1-0);
+}
+
+#nav-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-list-item {
+    text-decoration: none;
+    color: var(--color-complement-1);
+    margin: 0 60px;
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+/* greeting */
+
+#greeting {
+    color: var(--color-secondary-2-0);
+}
+
+#greeting-h1 {
+    font-size: 2rem;
+}
+
+#greeting-text {
+    font-size: 1.2rem;
+}
+
+#greeting-text-span {
+    color: var(--color-secondary-1-1);
+}
+
+#image {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+}
+
+#image-image {
+    max-width: 160px;
+    max-height: 210px;
+}
