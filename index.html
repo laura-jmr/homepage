@@ -13,19 +13,62 @@
 <body>
     <div id="nav">
         <ul id="nav-list">
-            <a class="nav-list-item" href="index.html">Projects</a>
-            <a class="nav-list-item" href="index.html">CV</a>
-            <a class="nav-list-item" href="index.html">Contact</a>
+            <button class="nav-list-item" onclick="routeTo('projects')">Projects</button>
+            <button class="nav-list-item" onclick="routeTo('cv')">CV</button>
+            <button class="nav-list-item" onclick="routeTo('contact')">Contact</button>
         </ul>
     </div>
+
     <div id="main">
         <div id="image">
-            <img id="image-image" src="ressources/ai-me-2.PNG" alt="image of me">
+            <img id="image-image" src="ressources/me.jpeg" alt="image of me">
         </div>
         <div id="greeting">
             <h1 id="greeting-h1">Hello there,</h1>
             <p id="greeting-text"> I'm <span id="greeting-text-span">Laura Jürgensmeier</span> 🌸 <br>Computer Science Student, Data Science, Artificial Intelligence. </p>
         </div>
     </div>
+
+    <div id="projects">
+
+    </div>
+
+    <div id="cv">
+        <div id="timeline">
+            <div id="timeline-list">
+                <ul>
+                    <li class="timeline-li">
+                        <p>2007 - 2011</p>
+                        <p>Grundschulbesuch<br><span class="timeline-li-location">Grundschule<br>Lienen</span></p>
+                    </li>
+                    <li class="timeline-li">
+                        <p>2011 - 2019</p>
+                        <p>Abitur mit Leistungskursen Informatik und Mathematik<br><span class="timeline-li-location">Hannah-Arendt-Gymnasium<br>Lengerich</span></p>
+                    </li>
+                    <li class="timeline-li">
+                        <p>Oct 2019 - Mar 2020</p>
+                        <p>Kombi-Bachelorstudium Informatik (KF) und Mathematik (NF)<br><span class="timeline-li-location">Universität<br>Bielefeld</span></p>
+                    </li>
+                    <li class="timeline-li">
+                        <p>Apr 2020 - Sep 2023</p>
+                        <p>Bachelorstudium Angewandte Informatik mit Schwerpunkt Data Science<br><span class="timeline-li-location">Hochschule für Technik und Wirtschaft<br>Berlin</span></p>
+                    </li>
+                    <li class="timeline-li">
+                        <p>Oct 2021 - Jan 2022</p>
+                        <p>Tutorin im Modul "Programmieren 2" mit Java<br><span class="timeline-li-location">Hochschule für Technik und Wirtschaft<br>Berlin</span></p>
+                    </li>
+                </ul>
+            </div>
+            <div id="timeline-line"></div>
+        </div>
+
+    </div>
+
+    <div id="contact">
+
+    </div>
+
+    <script src="main.js"></script>
+    <script src="init.js"></script>
 </body>
 </html>

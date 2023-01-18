@@ -58,7 +58,13 @@ body {
     color: var(--color-complement-1);
     margin: 0 60px;
     font-size: 1.2rem;
-    font-weight: bolder;
+    background-color: inherit;
+    cursor: pointer;
+    display: inline-block;
+    border: none;
+}
+.nav-list-item:hover {
+    color: var(--color-secondary-1-1);
 }
 
 /* greeting */
@@ -89,4 +95,42 @@ body {
 #image-image {
     max-width: 160px;
     max-height: 210px;
+}
+
+/* cv */
+
+#timeline {
+    display: flex;
+}
+
+#timeline-list {
+    display: flex;
+}
+
+.timeline-li {
+    display: flex;
+    width:500px;
+    justify-content: space-between;
+}
+
+.timeline-li p {
+    color: var(--color-secondary-1-1);
+    width: 200px;
+    list-style: none;
+    margin-bottom: 50px;
+}
+
+#timeline-line {
+    height: 800px;
+    width: 3px;
+    background: var(--color-complement-1);
+    margin: 0 50px;
+    position: absolute;
+    top: 120px;
+    left: 200px;
+}
+
+.timeline-li-location {
+    color: var(--color-primary-1);
+    font-size: 0.85rem;
 }
